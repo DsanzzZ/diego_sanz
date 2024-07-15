@@ -3,7 +3,7 @@ system("cls")
 # import statisctic
 # geometric_mean()
 import random
-
+#PARA LOS SUELDOS ALEATORIOS
 sueldo0=random.randint(300000,2500000)
 sueldo1=random.randint(300000,2500000)
 sueldo2=random.randint(300000,2500000)
@@ -17,10 +17,53 @@ sueldo9=random.randint(300000,2500000)
 
 sueldos=[sueldo0, sueldo1, sueldo2, sueldo3, sueldo4, sueldo5, sueldo6, sueldo7, sueldo8, sueldo9]
 
+#PARA EL SUELDO MAYOR
+if sueldo0>sueldo1 and sueldo0>sueldo2 and sueldo0>sueldo3 and sueldo0>sueldo4 and sueldo0>sueldo5 and sueldo0>sueldo6 and sueldo0>sueldo7 and sueldo0>sueldo8 and sueldo0>sueldo9:
+     sueldo_mayor=sueldo0
+elif sueldo1>sueldo0 and sueldo1>sueldo2 and sueldo1>sueldo3 and sueldo1>sueldo4 and sueldo1>sueldo5 and sueldo1>sueldo6 and sueldo1>sueldo7 and sueldo1>sueldo8 and sueldo1>sueldo9:
+     sueldo_mayor=sueldo1
+elif sueldo2>sueldo1 and sueldo2>sueldo0 and sueldo2>sueldo3 and sueldo2>sueldo4 and sueldo2>sueldo5 and sueldo2>sueldo6 and sueldo2>sueldo7 and sueldo2>sueldo8 and sueldo2>sueldo9:
+     sueldo_mayor=sueldo2
+elif sueldo3>sueldo1 and sueldo3>sueldo2 and sueldo3>sueldo0 and sueldo3>sueldo4 and sueldo3>sueldo5 and sueldo3>sueldo6 and sueldo3>sueldo7 and sueldo3>sueldo8 and sueldo3>sueldo9:
+     sueldo_mayor=sueldo3
+elif sueldo4>sueldo1 and sueldo4>sueldo2 and sueldo4>sueldo3 and sueldo4>sueldo0 and sueldo4>sueldo5 and sueldo4>sueldo6 and sueldo4>sueldo7 and sueldo4>sueldo8 and sueldo4>sueldo9:
+     sueldo_mayor=sueldo4
+elif sueldo5>sueldo1 and sueldo5>sueldo2 and sueldo5>sueldo3 and sueldo5>sueldo4 and sueldo5>sueldo0 and sueldo5>sueldo6 and sueldo5>sueldo7 and sueldo5>sueldo8 and sueldo5>sueldo9:
+     sueldo_mayor=sueldo5
+elif sueldo6>sueldo1 and sueldo6>sueldo2 and sueldo6>sueldo3 and sueldo6>sueldo4 and sueldo6>sueldo5 and sueldo6>sueldo0 and sueldo6>sueldo7 and sueldo6>sueldo8 and sueldo6>sueldo9:
+     sueldo_mayor=sueldo6
+elif sueldo7>sueldo1 and sueldo7>sueldo2 and sueldo7>sueldo3 and sueldo7>sueldo4 and sueldo7>sueldo5 and sueldo7>sueldo6 and sueldo7>sueldo0 and sueldo7>sueldo8 and sueldo7>sueldo9:
+     sueldo_mayor=sueldo7
+elif sueldo8>sueldo1 and sueldo8>sueldo2 and sueldo8>sueldo3 and sueldo8>sueldo4 and sueldo8>sueldo5 and sueldo8>sueldo6 and sueldo8>sueldo7 and sueldo8>sueldo0 and sueldo8>sueldo9:
+     sueldo_mayor=sueldo8
+elif sueldo9>sueldo1 and sueldo9>sueldo2 and sueldo9>sueldo3 and sueldo9>sueldo4 and sueldo9>sueldo5 and sueldo9>sueldo6 and sueldo9>sueldo7 and sueldo9>sueldo8 and sueldo9>sueldo0:
+     sueldo_mayor=sueldo9
+
+#PARA EL SUELDO MENOR
+if sueldo0<sueldo1 and sueldo0<sueldo2 and sueldo0<sueldo3 and sueldo0<sueldo4 and sueldo0<sueldo5 and sueldo0<sueldo6 and sueldo0<sueldo7 and sueldo0<sueldo8 and sueldo0<sueldo9:
+     sueldo_menor=sueldo0
+elif sueldo1<sueldo0 and sueldo1<sueldo2 and sueldo1<sueldo3 and sueldo1<sueldo4 and sueldo1<sueldo5 and sueldo1<sueldo6 and sueldo1<sueldo7 and sueldo1<sueldo8 and sueldo1<sueldo9:
+     sueldo_menor=sueldo1
+elif sueldo2<sueldo1 and sueldo2<sueldo0 and sueldo2<sueldo3 and sueldo2<sueldo4 and sueldo2<sueldo5 and sueldo2<sueldo6 and sueldo2<sueldo7 and sueldo2<sueldo8 and sueldo2<sueldo9:
+     sueldo_menor=sueldo2
+elif sueldo3<sueldo1 and sueldo3<sueldo2 and sueldo3<sueldo0 and sueldo3<sueldo4 and sueldo3<sueldo5 and sueldo3<sueldo6 and sueldo3<sueldo7 and sueldo3<sueldo8 and sueldo3<sueldo9:
+     sueldo_menor=sueldo3
+elif sueldo4<sueldo1 and sueldo4<sueldo2 and sueldo4<sueldo3 and sueldo4<sueldo0 and sueldo4<sueldo5 and sueldo4<sueldo6 and sueldo4<sueldo7 and sueldo4<sueldo8 and sueldo4<sueldo9:
+     sueldo_menor=sueldo4
+elif sueldo5<sueldo1 and sueldo5<sueldo2 and sueldo5<sueldo3 and sueldo5<sueldo4 and sueldo5<sueldo0 and sueldo5<sueldo6 and sueldo5<sueldo7 and sueldo5<sueldo8 and sueldo5<sueldo9:
+     sueldo_menor=sueldo5
+elif sueldo6<sueldo1 and sueldo6<sueldo2 and sueldo6<sueldo3 and sueldo6<sueldo4 and sueldo6<sueldo5 and sueldo6<sueldo0 and sueldo6<sueldo7 and sueldo6<sueldo8 and sueldo6<sueldo9:
+     sueldo_menor=sueldo6
+elif sueldo7<sueldo1 and sueldo7<sueldo2 and sueldo7<sueldo3 and sueldo7<sueldo4 and sueldo7<sueldo5 and sueldo7<sueldo6 and sueldo7<sueldo0 and sueldo7<sueldo8 and sueldo7<sueldo9:
+     sueldo_menor=sueldo7
+elif sueldo8<sueldo1 and sueldo8<sueldo2 and sueldo8<sueldo3 and sueldo8<sueldo4 and sueldo8<sueldo5 and sueldo8<sueldo6 and sueldo8<sueldo7 and sueldo8<sueldo0 and sueldo8<sueldo9:
+     sueldo_menor=sueldo8
+elif sueldo9<sueldo1 and sueldo9<sueldo2 and sueldo9<sueldo3 and sueldo9<sueldo4 and sueldo9<sueldo5 and sueldo9<sueldo6 and sueldo9<sueldo7 and sueldo9<sueldo8 and sueldo9<sueldo0:
+     sueldo_menor=sueldo9
+
+#LISTA DE TRABAJADORES
 trabajadores=["juan perez","maria garcia","carlos lopez","ana martines","pedro rodriguez","laura hernandez","miguel sanchez","isabel gomez","francisco diaz","elena fernandez"]
-menos800=[]
-mas800=[]
-dospalo=[]
+
 #def´s
 def asignar_sueldos():
     print(f"""
@@ -61,7 +104,8 @@ while True:
 
 
      elif op=="2":
-            print("no logre hacer esto :/")
+            print("no logre hacer esto :/ necesito un 2.8 para pasar :,( no sean malos)")
+          
             # if sueldo0<800000:
             #     trabajadores[0] in menos800
 
@@ -162,14 +206,26 @@ while True:
    
      elif op=="3":
          print(f"""
-sueldo mas alto: """) 
-         
+sueldo mas alto: {sueldo_mayor}
+sueldo mas bajo: {sueldo_menor}
+""") 
+         print("no logre hacer esto :/ necesito un 2.8 para pasar :,( no sean malos)")
           
-     #elif op=="4":
-         
+         input("precione enter para continuar...")
+         from os import system
+         system("cls") 
+          
+     elif op=="4":
+            print("no logre hacer esto :/ necesito un 2.8 para pasar :,( no sean malos)")
           
      elif op=="5":
          finalizar_programa()
          break
-
+     else:
+          print("opcion no valida...")
+          input("precione enter para continuar...")
+         
+          from os import system
+          system("cls") 
+          
 
